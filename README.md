@@ -36,6 +36,7 @@
 ### Model
 ![keyfeatures1-(code)](https://github.com/user-attachments/assets/d3d02ed4-7540-4b47-aa5d-c53afafe10d8)
 ![keyfeatures2-(code)](https://github.com/user-attachments/assets/3c758651-284b-4434-a323-3f6c5f6e831f)
+<img width="1234" alt="스크린샷 2024-09-10 오후 5 57 32" src="https://github.com/user-attachments/assets/17ade7fe-5051-49c4-8cda-2e5c5b62e161">
 
 
 # **📖 Service Explain**

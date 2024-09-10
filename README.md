@@ -2,6 +2,8 @@
 ### 운전 중 발생하는 피로, 주의력 저하로 인한 사고와 도난에 대처 하기 위한 운전자 보조 서비스
 * 인원 : 6명
 * 기간 : 2024.08.05 ~ 2024.09.03
+
+  
 ![AutoAware(Title).pdf](https://github.com/user-attachments/files/16941396/AutoAware.pdf)
 
 <br>

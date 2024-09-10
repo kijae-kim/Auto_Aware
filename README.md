@@ -14,6 +14,9 @@
 # **✅ Process&Roll**
 ### Process
 - 기획, 데이터 전처리-구성, 모델학습, 프론트구현, 서버구현, PPT제작, 발표
+![Auto_Aware_UML](https://github.com/user-attachments/assets/ff28d097-38e3-41de-b5b0-16d808844ddc)
+
+
 ### 🔑 My Role
 - React.js를 이용 웹 소켓 방식과 파이썬 모델을 적용
 - 테이블 형식으로 유저의 데이터를 저장, 배정

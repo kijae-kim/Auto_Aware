@@ -1,19 +1,19 @@
 # 👨🏻‍💻 Auto_Aware
-### 운전 중 발생하는 피로, 주의력 저하로 인한 사고와 도난에 대처 하기 위한 운전자 보조 서비스 ( RetinaFace, PFLD 이용 객체 감지 )
+### 운전 중 발생하는 피로, 주의력 저하로 인한 사고와 도난에 대처 하기 위한 운전자 보조 서비스
 * 인원 : 6명
 * 기간 : 2024.08.05 ~ 2024.09.03
-![1](https://github.com/user-attachments/assets/3f4098bd-66bc-466f-b68d-87b8ae02041b)
+![AutoAware(Title).pdf](https://github.com/user-attachments/files/16941396/AutoAware.pdf)
 
 <br>
 
 # 💡프로젝트 기획
-운전 중 발생하는 피로, 주의력 저하로 인한 사고와 예기치 못한 상황(도난)에 대처 하기 위한 운전자를 보조해주는 서비스
+운전자의 상태를 실시간으로 모니터링함으로써 교통사고를 예방하고 안전한 주행 환경을 조성하는 데 있습니다. Auto Aware 서비스는 졸음운전 방지와 전방 주시 경고 같은 기능을 통해 운전자가 집중력을 유지하도록 돕습니다. 얼굴 인식 기술을 활용하여 운전자의 상태를 지속적으로 감지하고, 위험한 상황 발생 시 즉각적인 경고를 제공하여 사고를 미연에 방지하는 것을 목표로 합니다.
 
 <br>
 
 # **✅ Process&Roll**
 ### Process
-- 기획, 데이터 전처리-구성, 모델학습, 프론트구현, 서버구현, 서버배포, PPT제작, 발표
+- 기획, 데이터 전처리-구성, 모델학습, 프론트구현, 서버구현, PPT제작, 발표
 ### 🔑 My Role
 - React.js를 이용 웹 소켓 방식과 파이썬 모델을 적용
 - 테이블 형식으로 유저의 데이터를 저장, 배정
@@ -24,21 +24,35 @@
 
 # 💾 DataSet & Model
 ### DataSet
-![7](https://github.com/user-attachments/assets/4d639428-b09f-4de3-8a97-259c9a7d8d30)
+
 
 ### Model
-
+![AutoAware(Algorithm1).pdf](https://github.com/user-attachments/files/16941432/AutoAware.pdf)
+![AutoAware(Algorithm2).pdf](https://github.com/user-attachments/files/16941440/AutoAware.pdf)
+![AutoAware(Algorithm3).pdf](https://github.com/user-attachments/files/16941441/AutoAware.pdf)
 
 
 # **📖 Service Explain**
-![6](https://github.com/user-attachments/assets/fb9bd1f1-2a8d-4050-aa24-3e7e053e53ef)
-![10](https://github.com/user-attachments/assets/d3b4e10f-c720-451c-b628-1229888fb0c9)
-![11](https://github.com/user-attachments/assets/29b7a985-97e9-4b6e-8229-070b609c4f06)
-![12](https://github.com/user-attachments/assets/93c78014-3192-48f0-8c42-da40b27326c8)
+![AutoAware(Process1).pdf](https://github.com/user-attachments/files/16941418/AutoAware.pdf)
+![AutoAware(Process2).pdf](https://github.com/user-attachments/files/16941420/AutoAware.pdf)
+![AutoAware(main1).pdf](https://github.com/user-attachments/files/16941426/AutoAware.pdf)
+![AutoAware(main2).pdf](https://github.com/user-attachments/files/16941437/AutoAware.pdf)
 
 <br>
 
-# **📍 Result**
+# **📍 Vision**
+![AutoAware(vision).pdf](https://github.com/user-attachments/files/16941444/AutoAware.pdf)
+![AutoAware(vision2).pdf](https://github.com/user-attachments/files/16941447/AutoAware.pdf)
+<br>
+
+# **😎 Thoughts**
+이번 프로젝트에서 가장 큰 도전 중 하나는 서버에서 웹캠을 열어 프레임 단위로 영상을 처리하는 과정이었습니다. 웹캠에서 프레임을 받아오고, 얼굴 인식 및 졸음 감지와 같은 연산을 처리하는데 시간이 많이 걸리면서 웹캠이 다운되는 현상이 자주 발생했습니다. 이를 해결하기 위해 처리 과정을 최대한 간소화하고, 연산을 비동기 방식으로 처리하여 성능을 최적화했습니다. 그 결과, 정상적으로 웹캠이 작동하게 되었고 실시간 분석이 가능해졌습니다.
+
+또한, Python으로 개발한 기능을 React.js와 연결하는 과정에서 예상치 못한 오류가 많이 발생했습니다. 기능을 서버에서 처리할 수 있도록 기존의 코드를 함수화하고, 이를 백엔드에서 관리하도록 구조를 재설계하면서 오류를 해결할 수 있었습니다. 이러한 과정을 통해 백엔드와 프론트엔드 간의 연동의 중요성을 깊이 깨닫게 되었습니다.
+
+세 번째로, 사용자의 이미지를 등록하고 학습하는 과정에서 발생한 번거로움도 큰 도전이었습니다. 처음에는 로컬에 이미지를 저장 후 가져오는 방식으로 처리했지만, 유저 정보를 데이터베이스에서 확인해야 하는 불편함이 있었습니다. 이를 해결하기 위해, unknown 이미지를 바이너리 데이터로 변환하여 데이터베이스에 저장하고 userid와 연동시키는 방식을 도입해 프로세스를 크게 단순화할 수 있었습니다.
+
+이번 프로젝트를 통해 비동기 처리, 컴포넌트 기반 개발, 그리고 백엔드-프론트엔드의 통합에 대한 이해를 깊이 있게 다질 수 있었으며, 문제 해결 능력 또한 크게 향상되었습니다.
 
 <br>
 

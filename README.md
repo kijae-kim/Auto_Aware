@@ -4,12 +4,14 @@
 * 기간 : 2024.08.05 ~ 2024.09.03
 
   
-![AutoAware(Title)](https://github.com/user-attachments/files/16941396/AutoAware.pdf)
+![1](https://github.com/user-attachments/assets/23910004-cab4-4c2a-aec9-a620b1c91599)
+
 
 <br>
 
 # 💡프로젝트 기획
 운전자의 상태를 실시간으로 모니터링함으로써 교통사고를 예방하고 안전한 주행 환경을 조성하는 데 있습니다. Auto Aware 서비스는 졸음운전 방지와 전방 주시 경고 같은 기능을 통해 운전자가 집중력을 유지하도록 돕습니다. 얼굴 인식 기술을 활용하여 운전자의 상태를 지속적으로 감지하고, 위험한 상황 발생 시 즉각적인 경고를 제공하여 사고를 미연에 방지하는 것을 목표로 합니다.
+<img width="1234" alt="스크린샷 2024-09-10 오후 5 54 08" src="https://github.com/user-attachments/assets/7fbdece5-d8a0-42ca-bec2-f6290d296fa3">
 
 <br>
 
@@ -32,22 +34,21 @@
 
 
 ### Model
-![AutoAware(Algorithm1).pdf](https://github.com/user-attachments/files/16941432/AutoAware.pdf)
-![AutoAware(Algorithm2).pdf](https://github.com/user-attachments/files/16941440/AutoAware.pdf)
-![AutoAware(Algorithm3).pdf](https://github.com/user-attachments/files/16941441/AutoAware.pdf)
+![keyfeatures1-(code)](https://github.com/user-attachments/assets/d3d02ed4-7540-4b47-aa5d-c53afafe10d8)
+![keyfeatures2-(code)](https://github.com/user-attachments/assets/3c758651-284b-4434-a323-3f6c5f6e831f)
 
 
 # **📖 Service Explain**
-![AutoAware(Process1).pdf](https://github.com/user-attachments/files/16941418/AutoAware.pdf)
-![AutoAware(Process2).pdf](https://github.com/user-attachments/files/16941420/AutoAware.pdf)
-![AutoAware(main1).pdf](https://github.com/user-attachments/files/16941426/AutoAware.pdf)
-![AutoAware(main2).pdf](https://github.com/user-attachments/files/16941437/AutoAware.pdf)
+![Process](https://github.com/user-attachments/assets/7bc196d3-a76e-47db-999b-d111354b232f)
+![Process (2)](https://github.com/user-attachments/assets/5d08dd60-a0ae-4dd2-9771-78a1f9a413ab)
+![keyfeatures](https://github.com/user-attachments/assets/405e67cf-eed8-4bdd-80c4-a1e003d761f2)
+![10](https://github.com/user-attachments/assets/bf5bedda-6008-4b0a-955a-f5e479e81e28)
 
 <br>
 
 # **📍 Vision**
-![AutoAware(vision).pdf](https://github.com/user-attachments/files/16941444/AutoAware.pdf)
-![AutoAware(vision2).pdf](https://github.com/user-attachments/files/16941447/AutoAware.pdf)
+![사업성](https://github.com/user-attachments/assets/a75c51b3-a4c9-4230-88f0-9acb0a24652e)
+<img width="1230" alt="스크린샷 2024-09-10 오후 5 55 36" src="https://github.com/user-attachments/assets/25c96564-5741-47df-9189-f0cda6d60df7">
 <br>
 
 # **😎 Thoughts**

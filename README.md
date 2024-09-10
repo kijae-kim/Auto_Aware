@@ -4,7 +4,7 @@
 * 기간 : 2024.08.05 ~ 2024.09.03
 
   
-![AutoAware(Title).pdf](https://github.com/user-attachments/files/16941396/AutoAware.pdf)
+![AutoAware(Title)](https://github.com/user-attachments/files/16941396/AutoAware.pdf)
 
 <br>
 

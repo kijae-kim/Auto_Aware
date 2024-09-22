@@ -1,0 +1,111 @@
+.list-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(43, 45, 48, 1);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-content {
+  margin-top: 20px;
+}
+
+.list-table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: rgba(132, 136, 149, 0.5);
+  border: none;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.list-table th,
+.list-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.list-table th {
+  background-color: #333;
+}
+
+.list-table td:first-child {
+  color: #a5c261;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.modal-content button {
+  margin: 0 10px;
+  padding: 5px 15px;
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.modal-content button:hover {
+  background-color: #666;
+}
+
+.list-table button {
+  background-color: #4a4a4a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.list-table button:hover {
+  color: red;
+  background-color: #666;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #8aff8a;
+  color: #333;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,81 @@
+/* Header 스타일 */
+.header_total {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+/* 전체적인 Header 스타일 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  height: 30px;
+}
+/* 메뉴 버튼 스타일 */
+.menu_logo {
+  display: flex;
+  flex-direction: row;
+  z-index: 1000;
+}
+.menu_logo button {
+  background-color: transparent;
+  border: none;
+}
+.menu_logo button:hover {
+  cursor: pointer;
+}
+/* 메뉴 버튼 이미지 스타일 */
+.menu_logo button > img {
+  height: 30px;
+}
+/* 이름, 로고 스타일 */
+.logoBox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+.logoBox img {
+  margin: 5px 0;
+  height: 30px;
+  color: white;
+}
+.logoBox h2 {
+  margin: 5px 0;
+  color: white;
+}
+/* 중간 메뉴 스타일 */
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu div {
+  color: #d2d2d2;
+  text-decoration: none;
+  font-size: 16px;
+}
+.menu div:hover {
+  cursor: pointer;
+  font-size: 17px;
+}
+/* bell 로고 스타일 */
+.bell_logo {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+/* bell 로고 버튼 스타일 */
+.bell_logo button {
+  background-color: transparent;
+  border: none;
+}
+/* bell 로고 버튼 내부 이미지 스타일 */
+.bell_logo button > img {
+  height: 30px;
+}

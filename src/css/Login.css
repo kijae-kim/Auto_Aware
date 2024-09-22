@@ -1,0 +1,71 @@
+/* 로그인 페이지 스타일 */
+.login_total {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(43, 45, 48, 1);
+  padding-top: 100px;
+}
+/* 로그인 박스 스타일 */
+.login_container {
+  text-align: center;
+  background-color: rgba(132, 136, 149, 0.5);
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+/* 로고 이름 스타일 */
+h1 {
+  color: white;
+}
+/* input, label을 담고있는 div를 전체적으로 담은 div 스타일 */
+.login_inputBox {
+  margin-bottom: 50px;
+}
+/* 전체적인 input 스타일*/
+.login_input {
+  width: 40%;
+  height: 40px;
+  display: flex;
+  border: 2px solid rgba(165, 194, 97, 1);
+  margin: 0 auto;
+  background-color: rgba(194, 204, 170, 1);
+  font-size: 13px;
+  font-weight: bold;
+}
+/* id input 스타일 */
+.login_ID {
+  border-radius: 10px 10px 0 0;
+}
+/* pw input 스타일 */
+.login_PW {
+  border-radius: 0 0 10px 10px;
+}
+/* 로그인 버튼을 담고있는 div 스타일 */
+.login_BtnBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 로그인 버튼 스타일 */
+.login_loginBtn {
+  width: 40%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(165, 194, 97, 1);
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* 회원가입 버튼 스타일 */
+.login_signupBtn {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 10px;
+  margin-left: 25%;
+  color: rgba(191, 196, 210, 0.5);
+}

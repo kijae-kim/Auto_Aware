@@ -1,0 +1,87 @@
+/* 회원가입 페이지 스타일 */
+.signup_total {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(43, 45, 48, 1);
+  padding-top: 100px;
+}
+/* 회원가입 박스 스타일 */
+.signup_container {
+  text-align: center;
+  background-color: rgba(132, 136, 149, 0.5);
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+/* 로고 이름 스타일 */
+h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+/* input, label을 담고있는 div를 전체적으로 담은 div 스타일 */
+.signup_inputBox {
+  width: 85%;
+  height: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+/* input, label을 담고 있는 div 스타일 */
+.signup_inputBox > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+/* 전체적인 input 스타일 */
+.signup_input {
+  text-align: center;
+  width: 60%;
+  height: 25px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(165, 194, 97, 0.5);
+}
+/* input 내부 placeholder 스타일 */
+.signup_input::placeholder {
+  color: white;
+}
+/* input, label 스타일 */
+.signup_inputBox div > div {
+  width: 30%;
+  height: 25px;
+  font-weight: bold;
+  margin-right: 10%;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(165, 194, 97, 1);
+}
+/* 비밀번호 확인 input 스타일 */
+.checkpw {
+  width: 48%;
+}
+/* 비밀번호 확인 버튼 스타일 */
+.checkpw_Btn {
+  height: 25px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(165, 194, 97, 0.5);
+  color: white;
+}
+/* 가입 버튼 스타일 */
+.signup_signupBtn {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 149, 0, 1);
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(165, 194, 97, 1);
+  margin-left: 60%;
+}

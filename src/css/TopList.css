@@ -1,0 +1,25 @@
+.register-top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 24px;
+  background-color: rgba(132, 136, 149, 0.5);
+  border: none;
+  border-radius: 15px;
+}
+
+.register-top div {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.register-top div:hover {
+  color: #a5c261;
+  font-weight: bold;
+}
+
+.register-top .active {
+  color: #a5c261;
+  font-weight: bold;
+}

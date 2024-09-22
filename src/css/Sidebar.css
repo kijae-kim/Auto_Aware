@@ -1,0 +1,164 @@
+/* 사이드바 스타일 */
+.sidebar_total {
+  position: fixed;
+  z-index: 2;
+}
+.sidebar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 250px;
+  height: calc(100% - 50px); /* Header 아래 공간만큼 높이 설정 */
+  background-color: rgba(122, 126, 133, 0.75);
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+  z-index: 2; /* 오버레이보다 위에 위치하도록 설정 */
+  overflow-y: scroll;
+}
+/* 스크롤 디자인 */
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background: black;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 30px;
+}
+/* open, closed 일때 위치 */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* 백드롭(Backdrop) 스타일 */
+.backdrop {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1; /* 사이드바 뒤에 오도록 설정 */
+}
+/* 사이드바 내부 스타일 */
+button:hover {
+  cursor: pointer;
+}
+/* upload 버튼 스타일 */
+.upload_Box {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.upload_Box button {
+  width: 90%;
+  height: 50px;
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(165, 194, 97, 1);
+}
+/* listTitle 스타일 */
+.listTitle_Box {
+  width: calc(100% + 40px);
+  height: 60px;
+  background-color: rgba(132, 136, 149, 1);
+  margin-left: -20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+/* 목록(list) 스타일 */
+.list_container {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.list_container div {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color: rgba(43, 45, 48, 1);
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+.list_container button {
+  width: 50%;
+  height: 40px;
+  margin-left: 120px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(165, 194, 97, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* faceTitle 스타일 */
+.faceTitle_Box {
+  width: calc(100% + 40px);
+  height: 60px;
+  background-color: rgba(132, 136, 149, 1);
+  margin-left: -20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+/* face 목록 스타일 */
+.face_container {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.face_container div {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color: rgba(43, 45, 48, 1);
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+.face_container button {
+  width: 50%;
+  height: 40px;
+  margin-left: 120px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(165, 194, 97, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 로그인/로그아웃 버튼 */
+.login_Box {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.sidebar_Login_Btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 149, 0, 1);
+  background-color: rgba(165, 194, 97, 1);
+}
